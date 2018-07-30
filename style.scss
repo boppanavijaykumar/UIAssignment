@@ -1,24 +1,24 @@
 .main {
     font-family: Lato;
     margin: 0px;
-    .top-nav {
+    .nav-bar {
         min-height: 46px;
         display: flex;
         justify-content: space-between;
-        .app-logo {
+        .nav-bar-logo {
             margin: 1rem 0rem 1rem 2rem;
-            .logo-image {
+            .nav-bar-logo-image {
                 width: 17rem;
             }
         }
-        .login-text {
+        .nav-element-login {
             color: #963D9B;
             font-size: 1rem;
             margin: 2.5rem 0rem 0rem 27rem;
         }
-        .hamburger {
+        .nav-element-hamburger {
             margin: 2.5rem 2rem 0rem 0rem;
-            .hamburger-image {
+            .nav-element-hamburger-image {
                 width: 2.7rem;
             }
         }
@@ -31,7 +31,7 @@
         min-height: 50px;
         display: flex;
         box-shadow: 0px 14px 64px -24px #777777;
-        .input-field {
+        .search-input-field {
             border: none;
             border-bottom: 3px solid #CBCBCB;
             width: 57%;
@@ -40,19 +40,19 @@
             outline: none;
             color: #676767;
         }
-        .address {
+        .search-element-address {
             font-size: 2rem;
             margin: 2rem 0rem 3rem 2rem;
-            .near-text {
+            .search-element-nearby {
                 color: #9E9E9E;
             }
-            .specific-address {
+            .search-element-specific-address {
                 color: #963D9B;
             }
         }
-        .search-icon {
+        .search-bar-icon {
             margin: 1rem 0rem 2rem 2rem;
-            .icon {
+            .search-bar-image {
                 width: 4rem;
             }
         }
@@ -65,37 +65,37 @@
             background-color: #5BCDCD;
             width: 17rem;
             border-radius: 5rem;
-            .search-image {
+            .category-search-image {
                 background-color: #5BCDCD;
                 width: 3.5rem;
                 margin-top: 2.2rem;
             }
-            .show-image {
+            .category-show-image {
                 background-color: #5BCDCD;
                 width: 5.3rem;
                 margin: 2.7rem 0rem 0rem 0.5rem;
             }
         }
-        .savings-category {
+        .category-savings {
             text-align: center;
             background-color: #5BCDCD;
             width: 10rem;
             border-radius: 5rem;
-            .savings-image {
+            .category-savings-image {
                 width: 13rem;
                 margin: 0.5rem 0rem 0rem -1.3rem;
             }
         }
-        .title-description-alignment {
+        .categories-header {
             display: flex;
             flex-direction: column;
             margin-left: 2rem;
             line-height: 3rem;
-            .categories-title {
+            .categories-header-title {
                 color: #963D9B;
                 font-size: 2.5rem;
                 margin-bottom: 1rem;
-                .title-text {
+                .categories-header-title-text {
                     font-weight: bold;
                 }
             }
@@ -111,22 +111,22 @@
         margin-left: 10px;
         margin-right: 10px;
     }
-    .sign-up {
+    .account {
         background-color: #F4F4F4;
         display: flex;
         flex-direction: column;
         align-items: center;
-        .tools-text {
+        .account-tools {
             margin-top: 3rem;
             font-size: 2.5rem;
             font-weight: bold;
         }
-        .signup-text {
+        .account-signup {
             font-size: 3.5rem;
             margin-top: 1rem;
             font-weight: bold;
         }
-        .items-description {
+        .account-items-description {
             font-size: 0.6rem;
             color: gray;
             margin-top: 2rem;
@@ -154,13 +154,13 @@
             background-color: #F4F4F4;
         }
     }
-    .container {
+    .features {
         display: flex;
         flex-direction: row;
         align-items: center;
         flex-wrap: wrap;
         margin-top: 5rem;
-        .card {
+        .feature-card {
             width: 15rem;
             max-height: 20rem;
             margin: 1% 1% 2% 2%;
@@ -171,7 +171,7 @@
             align-items: center;
             box-shadow: 0px 0px 4px 1px #ddd;
             overflow: hidden;
-            .item {
+            .feature-item {
                 text-align: center;
                 background-color: #5BCDCD;
                 width: 8rem;
@@ -199,22 +199,22 @@
             }
         }
     }
-    .app-promotion-text {
+    .promotion {
         display: flex;
         flex-direction: column;
         align-items: center;
         margin-top: 6rem;
-        .quote {
+        .promotion-quote {
             margin-bottom: 9px;
             font-weight: bold;
             font-size: 5rem;
             color: #656565;
         }
-        .get-app {
+        .mobile-app {
             font-size: 3rem;
             margin-bottom: 2rem;
         }
-        .discount-reprice {
+        .discount-medications {
             font-size: 2rem;
             color: #646464;
             margin-top: 4rem;
@@ -266,13 +266,13 @@
         .discount-condition {
             font-weight: bold;
         }
-        .details {
+        .supply-details {
             margin-bottom: 5rem;
         }
     }
-    .poweredby-logo {
+    .poweredby {
         text-align: center;
-        .logo {
+        .poweredby-logo {
             width: 27rem;
             margin-top: 1rem;
         }

@@ -3,7 +3,7 @@
   margin: 0px;
 }
 
-.main .top-nav {
+.main .nav-bar {
   min-height: 46px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -13,25 +13,25 @@
           justify-content: space-between;
 }
 
-.main .top-nav .app-logo {
+.main .nav-bar .nav-bar-logo {
   margin: 1rem 0rem 1rem 2rem;
 }
 
-.main .top-nav .app-logo .logo-image {
+.main .nav-bar .nav-bar-logo .nav-bar-logo-image {
   width: 17rem;
 }
 
-.main .top-nav .login-text {
+.main .nav-bar .nav-element-login {
   color: #963D9B;
   font-size: 1rem;
   margin: 2.5rem 0rem 0rem 27rem;
 }
 
-.main .top-nav .hamburger {
+.main .nav-bar .nav-element-hamburger {
   margin: 2.5rem 2rem 0rem 0rem;
 }
 
-.main .top-nav .hamburger .hamburger-image {
+.main .nav-bar .nav-element-hamburger .nav-element-hamburger-image {
   width: 2.7rem;
 }
 
@@ -49,7 +49,7 @@
           box-shadow: 0px 14px 64px -24px #777777;
 }
 
-.main .search-bar .input-field {
+.main .search-bar .search-input-field {
   border: none;
   border-bottom: 3px solid #CBCBCB;
   width: 57%;
@@ -59,24 +59,24 @@
   color: #676767;
 }
 
-.main .search-bar .address {
+.main .search-bar .search-element-address {
   font-size: 2rem;
   margin: 2rem 0rem 3rem 2rem;
 }
 
-.main .search-bar .address .near-text {
+.main .search-bar .search-element-address .search-element-nearby {
   color: #9E9E9E;
 }
 
-.main .search-bar .address .specific-address {
+.main .search-bar .search-element-address .search-element-specific-address {
   color: #963D9B;
 }
 
-.main .search-bar .search-icon {
+.main .search-bar .search-bar-icon {
   margin: 1rem 0rem 2rem 2rem;
 }
 
-.main .search-bar .search-icon .icon {
+.main .search-bar .search-bar-icon .search-bar-image {
   width: 4rem;
 }
 
@@ -94,31 +94,31 @@
   border-radius: 5rem;
 }
 
-.main .categories .category .search-image {
+.main .categories .category .category-search-image {
   background-color: #5BCDCD;
   width: 3.5rem;
   margin-top: 2.2rem;
 }
 
-.main .categories .category .show-image {
+.main .categories .category .category-show-image {
   background-color: #5BCDCD;
   width: 5.3rem;
   margin: 2.7rem 0rem 0rem 0.5rem;
 }
 
-.main .categories .savings-category {
+.main .categories .category-savings {
   text-align: center;
   background-color: #5BCDCD;
   width: 10rem;
   border-radius: 5rem;
 }
 
-.main .categories .savings-category .savings-image {
+.main .categories .category-savings .category-savings-image {
   width: 13rem;
   margin: 0.5rem 0rem 0rem -1.3rem;
 }
 
-.main .categories .title-description-alignment {
+.main .categories .categories-header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -130,17 +130,17 @@
   line-height: 3rem;
 }
 
-.main .categories .title-description-alignment .categories-title {
+.main .categories .categories-header .categories-header-title {
   color: #963D9B;
   font-size: 2.5rem;
   margin-bottom: 1rem;
 }
 
-.main .categories .title-description-alignment .categories-title .title-text {
+.main .categories .categories-header .categories-header-title .categories-header-title-text {
   font-weight: bold;
 }
 
-.main .categories .title-description-alignment .categories-description {
+.main .categories .categories-header .categories-description {
   color: #9E9E9E;
   font-size: 2rem;
   margin-right: 1rem;
@@ -152,7 +152,7 @@
   margin-right: 10px;
 }
 
-.main .sign-up {
+.main .account {
   background-color: #F4F4F4;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -166,25 +166,25 @@
           align-items: center;
 }
 
-.main .sign-up .tools-text {
+.main .account .account-tools {
   margin-top: 3rem;
   font-size: 2.5rem;
   font-weight: bold;
 }
 
-.main .sign-up .signup-text {
+.main .account .account-signup {
   font-size: 3.5rem;
   margin-top: 1rem;
   font-weight: bold;
 }
 
-.main .sign-up .items-description {
+.main .account .account-items-description {
   font-size: 0.6rem;
   color: gray;
   margin-top: 2rem;
 }
 
-.main .sign-up .signup-button {
+.main .account .signup-button {
   background-color: #963D9B;
   color: white;
   outline: none;
@@ -196,7 +196,7 @@
   border-radius: 1rem;
 }
 
-.main .sign-up .learn-more-button {
+.main .account .learn-more-button {
   color: #963D9B;
   font-size: 2rem;
   border-radius: 1rem;
@@ -208,7 +208,7 @@
   background-color: #F4F4F4;
 }
 
-.main .container {
+.main .features {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -224,7 +224,7 @@
   margin-top: 5rem;
 }
 
-.main .container .card {
+.main .features .feature-card {
   width: 15rem;
   max-height: 20rem;
   margin: 1% 1% 2% 2%;
@@ -245,7 +245,7 @@
   overflow: hidden;
 }
 
-.main .container .card .item {
+.main .features .feature-card .feature-item {
   text-align: center;
   background-color: #5BCDCD;
   width: 8rem;
@@ -253,30 +253,30 @@
   border-radius: 5rem;
 }
 
-.main .container .card .item .item-image {
+.main .features .feature-card .feature-item .item-image {
   width: 4.5rem;
   margin-top: 1.7rem;
 }
 
-.main .container .card .item .discount-card-image {
+.main .features .feature-card .feature-item .discount-card-image {
   width: 4.5rem;
   margin-top: 2.5rem;
 }
 
-.main .container .card h2 {
+.main .features .feature-card h2 {
   color: #963D9B;
   font-weight: bold;
   font-size: 1.9rem;
   margin-bottom: 1rem;
 }
 
-.main .container .card .item-description {
+.main .features .feature-card .item-description {
   color: #9E9E9E;
   font-size: 1.5rem;
   text-align: center;
 }
 
-.main .app-promotion-text {
+.main .promotion {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -290,19 +290,19 @@
   margin-top: 6rem;
 }
 
-.main .app-promotion-text .quote {
+.main .promotion .promotion-quote {
   margin-bottom: 9px;
   font-weight: bold;
   font-size: 5rem;
   color: #656565;
 }
 
-.main .app-promotion-text .get-app {
+.main .promotion .mobile-app {
   font-size: 3rem;
   margin-bottom: 2rem;
 }
 
-.main .app-promotion-text .discount-reprice {
+.main .promotion .discount-medications {
   font-size: 2rem;
   color: #646464;
   margin-top: 4rem;
@@ -377,15 +377,15 @@
   font-weight: bold;
 }
 
-.main .terms-and-conditions .details {
+.main .terms-and-conditions .supply-details {
   margin-bottom: 5rem;
 }
 
-.main .poweredby-logo {
+.main .poweredby {
   text-align: center;
 }
 
-.main .poweredby-logo .logo {
+.main .poweredby .poweredby-logo {
   width: 27rem;
   margin-top: 1rem;
 }
